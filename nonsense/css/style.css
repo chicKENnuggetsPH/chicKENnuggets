@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../photo2a.jpg);
+	background-size: cover;
+	background-position: 100hv;
+	background-repeat: no-repeat;
+	
+}
+
+ul{
+	margin-top: 25px;
+	float: right;
+	
+}
+
+ul li{
+	display: inline;
+
+}
+ul li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 5px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	margin-top: 5px;
+	size: 20;
+	float: left;
+	width: 100px;
+	height: auto;
+
+}
+.dep img{
+	display: block;
+	margin-top: 5px;
+	margin-left: 10px;
+	size: 20;
+	float: left;
+	width: 100px;
+	height: auto;
+}
+.ed img{
+	display: block;
+	margin-top: 30px;
+	margin-left: 10px;
+	float: left;
+	width: 100px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	color: black ;
+	font-weight: bold;
+	font-size: 23px;
+	font-family: monospace;
+	left:50% ;
+	top: 30%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+.button{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.btn{
+	color: black;
+	border: 1px solid #fff;
+	padding:10px 30px ;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+a{
+	color: black;
+	font-weight: bold;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+.login{
+position: absolute;
+	top: 20%;
+	left: 9%;
+	transform: translate(-50%,-50%);
+}
+.log{
+	color: black;
+	border: 1px solid whitesmoke;
+	padding:10px 30px ;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.log:hover{
+	background-color: #fff;
+	color: #000;
+}
